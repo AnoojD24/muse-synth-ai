@@ -26,11 +26,13 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
-					foreground: 'hsl(var(--secondary-foreground))'
+					foreground: 'hsl(var(--secondary-foreground))',
+					glow: 'hsl(var(--secondary-glow))'
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
@@ -42,7 +44,8 @@ export default {
 				},
 				accent: {
 					DEFAULT: 'hsl(var(--accent))',
-					foreground: 'hsl(var(--accent-foreground))'
+					foreground: 'hsl(var(--accent-foreground))',
+					glow: 'hsl(var(--accent-glow))'
 				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
@@ -51,6 +54,25 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				glass: {
+					DEFAULT: 'hsl(var(--glass))',
+					border: 'hsl(var(--glass-border))'
+				},
+				wave: {
+					primary: 'hsl(var(--wave-primary))',
+					secondary: 'hsl(var(--wave-secondary))',
+					accent: 'hsl(var(--wave-accent))'
+				},
+				beat: {
+					indicator: 'hsl(var(--beat-indicator))'
+				},
+				genre: {
+					classical: 'hsl(var(--classical))',
+					jazz: 'hsl(var(--jazz))',
+					rock: 'hsl(var(--rock))',
+					pop: 'hsl(var(--pop))',
+					electronic: 'hsl(var(--electronic))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
